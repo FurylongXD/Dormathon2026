@@ -27,44 +27,45 @@ Credibell aims to address these challenges by providing an AI-powered, one-stop 
 - Built-in diagnostic utilities for pipeline integrity, metric tracking, and comprehensive validation benchmarks.
 
 ## System Architecture
-                                  +-----------------------+
-                                  | Raw Document Uploads  |
-                                  | (CCRIS, CTOS, EPF)    |
-                                  +-----------+-----------+
-                                              |
-                                              v
-                                  +-----------------------+
-                                  | Document Parser       |
-                                  | (documents.py)        |
-                                  +-----------+-----------+
-                                              |
-                                              v
-                                  +-----------------------+
-                                  | Structured Feature    |
-                                  | Extraction (schema.py)|
-                                  +-----------+-----------+
-                                              |
-                  +---------------------------+---------------------------+
-                  |                                                       |
-                  v                                                       v
-   +------------------------------+                       +------------------------------+
-   |   Quantitative ML Engine     |                       |      RAG Retrieval Engine    |
-   | (predictors.py / finance.py) |                       |   (retrieval.py / LLM)       |
-   +--------------+---------------+                       +--------------+---------------+
-                  |                                                       |
-                  v                                                       v
-   +------------------------------+                       +------------------------------+
-   |  SHAP Explainability Engine  |                       |  Bank Policy Catalog Match   |
-   |      (shap_engine.py)        |                       | (bank_catalog.json/policies) |
-   +--------------+---------------+                       +--------------+---------------+
-                  |                                                       |
-                  +---------------------------+---------------------------+
-                                              |
-                                              v
-                                  +-----------------------+
-                                  | Comprehensive Credit  |
-                                  | & Eligibility Report  |
-                                  +-----------------------+
+
+                                    +-----------------------+
+                                    | Raw Document Uploads  |
+                                    | (CCRIS, CTOS, EPF)    |
+                                    +-----------+-----------+
+                                                |
+                                                v
+                                    +-----------------------+
+                                    | Document Parser       |
+                                    | (documents.py)        |
+                                    +-----------+-----------+
+                                                |
+                                                v
+                                    +-----------------------+
+                                    | Structured Feature    |
+                                    | Extraction (schema.py)|
+                                    +-----------+-----------+
+                                                |
+                    +---------------------------+---------------------------+
+                    |                                                       |
+                    v                                                       v
+     +------------------------------+                       +------------------------------+
+     |   Quantitative ML Engine     |                       |      RAG Retrieval Engine    |
+     | (predictors.py / finance.py) |                       |   (retrieval.py / LLM)       |
+     +--------------+---------------+                       +--------------+---------------+
+                    |                                                       |
+                    v                                                       v
+     +------------------------------+                       +------------------------------+
+     |  SHAP Explainability Engine  |                       |  Bank Policy Catalog Match   |
+     |      (shap_engine.py)        |                       | (bank_catalog.json/policies) |
+     +--------------+---------------+                       +--------------+---------------+
+                    |                                                       |
+                    +---------------------------+---------------------------+
+                                                |
+                                                v
+                                    +-----------------------+
+                                    | Comprehensive Credit  |
+                                    | & Eligibility Report  |
+                                    +-----------------------+
 
 ## Tech Stack
 - Frontend: Streamlit
