@@ -38,7 +38,10 @@ LoanAndGo aims to address these challenges by providing an AI-powered, one-stop 
 1. 
 
 ## Team Members
-1.
+1. Lucius Long Kai Xuan
+2. Tey Kaize
+3. Darren Yap Zhen Jie
+4. Shamin Hossain
 
 
 
