@@ -1,0 +1,148 @@
+{
+  "scope": "Held-out synthetic records only; no claim of real Malaysian bank accuracy.",
+  "models": {
+    "approval": {
+      "roc_auc": 0.8874571701558726,
+      "brier_score": 0.1347277013573454,
+      "log_loss": 0.41433646123690043,
+      "threshold": 0.5,
+      "false_negative_rate": 0.21902874132804756,
+      "false_positive_rate": 0.17181883537023723,
+      "calibration_bins": [
+        {
+          "bin_lower": 0.0,
+          "count": 651,
+          "mean_prediction": 0.030905423685908318,
+          "observed_fraction": 0.027649769585253458
+        },
+        {
+          "bin_lower": 0.1,
+          "count": 217,
+          "mean_prediction": 0.1468648761510849,
+          "observed_fraction": 0.1935483870967742
+        },
+        {
+          "bin_lower": 0.2,
+          "count": 188,
+          "mean_prediction": 0.24915634095668793,
+          "observed_fraction": 0.2553191489361702
+        },
+        {
+          "bin_lower": 0.3,
+          "count": 162,
+          "mean_prediction": 0.3480328619480133,
+          "observed_fraction": 0.3333333333333333
+        },
+        {
+          "bin_lower": 0.4,
+          "count": 155,
+          "mean_prediction": 0.4485935866832733,
+          "observed_fraction": 0.38064516129032255
+        },
+        {
+          "bin_lower": 0.5,
+          "count": 154,
+          "mean_prediction": 0.5512700080871582,
+          "observed_fraction": 0.538961038961039
+        },
+        {
+          "bin_lower": 0.6,
+          "count": 170,
+          "mean_prediction": 0.6495976448059082,
+          "observed_fraction": 0.6588235294117647
+        },
+        {
+          "bin_lower": 0.7,
+          "count": 213,
+          "mean_prediction": 0.7522251605987549,
+          "observed_fraction": 0.7230046948356808
+        },
+        {
+          "bin_lower": 0.8,
+          "count": 272,
+          "mean_prediction": 0.853651762008667,
+          "observed_fraction": 0.8602941176470589
+        },
+        {
+          "bin_lower": 0.9,
+          "count": 218,
+          "mean_prediction": 0.939387321472168,
+          "observed_fraction": 0.9403669724770642
+        }
+      ]
+    },
+    "risk": {
+      "roc_auc": 0.8784002874239255,
+      "brier_score": 0.12955881038367534,
+      "log_loss": 0.4073817168963643,
+      "threshold": 0.5,
+      "false_negative_rate": 0.33716915995397007,
+      "false_positive_rate": 0.0999346832135859,
+      "calibration_bins": [
+        {
+          "bin_lower": 0.0,
+          "count": 648,
+          "mean_prediction": 0.05682261288166046,
+          "observed_fraction": 0.05864197530864197
+        },
+        {
+          "bin_lower": 0.1,
+          "count": 455,
+          "mean_prediction": 0.14326120913028717,
+          "observed_fraction": 0.12307692307692308
+        },
+        {
+          "bin_lower": 0.2,
+          "count": 258,
+          "mean_prediction": 0.24708178639411926,
+          "observed_fraction": 0.2751937984496124
+        },
+        {
+          "bin_lower": 0.3,
+          "count": 173,
+          "mean_prediction": 0.34364959597587585,
+          "observed_fraction": 0.36416184971098264
+        },
+        {
+          "bin_lower": 0.4,
+          "count": 137,
+          "mean_prediction": 0.44199952483177185,
+          "observed_fraction": 0.4744525547445255
+        },
+        {
+          "bin_lower": 0.5,
+          "count": 114,
+          "mean_prediction": 0.5506777167320251,
+          "observed_fraction": 0.5087719298245614
+        },
+        {
+          "bin_lower": 0.6,
+          "count": 122,
+          "mean_prediction": 0.6511433720588684,
+          "observed_fraction": 0.6475409836065574
+        },
+        {
+          "bin_lower": 0.7,
+          "count": 100,
+          "mean_prediction": 0.752514660358429,
+          "observed_fraction": 0.74
+        },
+        {
+          "bin_lower": 0.8,
+          "count": 125,
+          "mean_prediction": 0.8530813455581665,
+          "observed_fraction": 0.856
+        },
+        {
+          "bin_lower": 0.9,
+          "count": 268,
+          "mean_prediction": 0.9555304050445557,
+          "observed_fraction": 0.9626865671641791
+        }
+      ]
+    },
+    "health": {
+      "mae_internal_score_points": 6.408924916552922
+    }
+  }
+}

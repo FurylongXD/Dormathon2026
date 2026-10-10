@@ -1,0 +1,215 @@
+{
+  "reviewed_on": "2026-10-10",
+  "valid_until": "2026-11-09",
+  "products": [
+    {
+      "bank_code": "PUBLIC_BANK_CAR",
+      "bank": "Public Bank",
+      "product": "car",
+      "asset_margin": null,
+      "planning_margin": null,
+      "principal_cap": null,
+      "max_months": null,
+      "source": "https://www.pbebank.com/en/rates-charges/hire-purchase/",
+      "note": "Amount, rate and vehicle/property acceptance depend on bank review.",
+      "age_bands": [
+        [
+          5,
+          0.9,
+          108
+        ],
+        [
+          8,
+          0.9,
+          84
+        ],
+        [
+          9,
+          0.9,
+          72
+        ],
+        [
+          10,
+          0.9,
+          60
+        ],
+        [
+          12,
+          0.75,
+          36
+        ]
+      ]
+    },
+    {
+      "bank_code": "MAYBANK_CAR",
+      "bank": "Maybank",
+      "product": "car",
+      "asset_margin": 0.9,
+      "planning_margin": null,
+      "principal_cap": null,
+      "max_months": 108,
+      "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/loans/hire_purchase/hire_purchase.page",
+      "note": "Amount, rate and vehicle/property acceptance depend on bank review."
+    },
+    {
+      "bank_code": "CIMB_HOME",
+      "bank": "CIMB",
+      "product": "home",
+      "asset_margin": null,
+      "planning_margin": 0.9,
+      "principal_cap": null,
+      "max_months": 420,
+      "source": "https://www.cimb.com.my/en/personal/day-to-day-banking/financing/property-financing/homeflexismart.html",
+      "note": "Conservative asset-only 90%: published up to 95% includes eligible ancillary fees capped at 5%; this prototype excludes financed fees.",
+      "combined_margin": 0.95
+    },
+    {
+      "bank_code": "MAYBANK_HOME",
+      "bank": "Maybank",
+      "product": "home",
+      "asset_margin": null,
+      "planning_margin": 0.9,
+      "principal_cap": null,
+      "max_months": 420,
+      "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/loans/home/maxihome.page",
+      "note": "90% asset-only planning assumption. Published combined margin up to 95% includes related capitalised expenses; the precise asset-only ceiling requires bank confirmation.",
+      "combined_margin": 0.95
+    },
+    {
+      "bank_code": "MAYBANK_PERSONAL",
+      "bank": "Maybank",
+      "product": "personal",
+      "asset_margin": null,
+      "planning_margin": null,
+      "principal_cap": 100000,
+      "max_months": 72,
+      "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/loans/personal/personal_loan.page",
+      "note": "Amount, rate and vehicle/property acceptance depend on bank review."
+    },
+    {
+      "bank_code": "CIMB_PERSONAL",
+      "bank": "CIMB",
+      "product": "personal",
+      "asset_margin": null,
+      "planning_margin": null,
+      "principal_cap": 100000,
+      "max_months": 84,
+      "source": "https://www.cimb.com.my/en/personal/day-to-day-banking/financing/personal-financing/cash-plus-personal-loan.html",
+      "note": "Salaried employees only; self-employed needs business history and a separate document schema."
+    },
+    {
+      "bank_code": "CIMB_CAR",
+      "bank": "CIMB",
+      "product": "car",
+      "asset_margin": 0.9,
+      "planning_margin": null,
+      "principal_cap": null,
+      "max_months": 108,
+      "source": "https://www.cimb.com.my/en/personal/day-to-day-banking/financing/auto-financing/hire-purchase.html.html",
+      "note": "Amount, rate and vehicle/property acceptance depend on bank review."
+    },
+    {
+      "bank_code": "RHB_CAR",
+      "bank": "RHB",
+      "product": "car",
+      "asset_margin": 0.9,
+      "planning_margin": null,
+      "principal_cap": null,
+      "max_months": 108,
+      "source": "https://www.rhbgroup.com/islamic/financing/auto-financing/index.html",
+      "note": "Amount, rate and vehicle/property acceptance depend on bank review."
+    },
+    {
+      "bank_code": "HONG_LEONG_CAR",
+      "bank": "Hong Leong Bank",
+      "product": "car",
+      "asset_margin": 0.9,
+      "planning_margin": null,
+      "principal_cap": null,
+      "max_months": 108,
+      "source": "https://www.hlb.com.my/en/personal-banking/loans/motor-loan/auto-loans.html",
+      "note": "Amount, rate and vehicle/property acceptance depend on bank review."
+    },
+    {
+      "bank_code": "AMBANK_CAR",
+      "bank": "AmBank",
+      "product": "car",
+      "asset_margin": 0.9,
+      "planning_margin": null,
+      "principal_cap": null,
+      "max_months": 108,
+      "source": "https://www.ambank.com.my/loans-financing/personal/auto-financing/",
+      "note": "Amount, rate and vehicle/property acceptance depend on bank review."
+    },
+    {
+      "bank_code": "RHB_HOME",
+      "bank": "RHB",
+      "product": "home",
+      "asset_margin": 0.9,
+      "planning_margin": null,
+      "principal_cap": null,
+      "max_months": 420,
+      "source": "https://www.rhbgroup.com/personal/home-loan/my1-full-flexi-home-loan/index.html",
+      "note": "90% asset component; additional insurance/entry-cost financing is excluded from this calculation."
+    },
+    {
+      "bank_code": "HONG_LEONG_PERSONAL",
+      "bank": "Hong Leong Bank",
+      "product": "personal",
+      "asset_margin": null,
+      "planning_margin": null,
+      "principal_cap": 250000,
+      "max_months": 60,
+      "source": "https://www.hlb.com.my/en/personal-banking/loans/personal-loan/personal-loan.html",
+      "note": "Amount, rate and vehicle/property acceptance depend on bank review."
+    },
+    {
+      "bank_code": "AMBANK_PERSONAL",
+      "bank": "AmBank",
+      "product": "personal",
+      "asset_margin": null,
+      "planning_margin": null,
+      "principal_cap": 150000,
+      "max_months": 84,
+      "source": "https://www.ambank.com.my/loans-financing/personal/personal-financing/ammoneyline",
+      "note": "Salaried employees; self-employed income rules differ."
+    },
+    {
+      "bank_code": "RHB_PERSONAL",
+      "bank": "RHB",
+      "product": "personal",
+      "asset_margin": null,
+      "planning_margin": null,
+      "principal_cap": 150000,
+      "max_months": 120,
+      "source": "https://www.rhbgroup.com/personalfinancing-i/index.html",
+      "note": "Private-sector employees with salary transfer and auto debit. Product-specific age and amount bands need bank confirmation."
+    },
+    {
+      "bank_code": "PUBLIC_BANK_HOME",
+      "bank": "Public Bank",
+      "product": "home",
+      "asset_margin": null,
+      "source": "https://www.pbebank.com/en/loans/home-loan-financing/",
+      "note": "Get a property-specific quotation to confirm the financing margin and term."
+    },
+    {
+      "bank_code": "HONG_LEONG_HOME",
+      "bank": "Hong Leong Bank",
+      "product": "home",
+      "asset_margin": null,
+      "source": "https://www.hlb.com.my/en/personal-banking/loans/property-loan/mortgage-plus.html",
+      "note": "MortgagePlus offsets daily interest with a linked current account. Confirm the margin in your quote."
+    },
+    {
+      "bank_code": "AMBANK_HOME",
+      "bank": "AmBank",
+      "product": "home",
+      "asset_margin": null,
+      "combined_margin": 0.95,
+      "max_months": 420,
+      "source": "https://www.ambank.com.my/loans-financing/personal/home-financing/home-property-financing-i/home-financing-i-pds",
+      "note": "Up to 95% includes MRTT. The asset-only percentage needs a bank quotation."
+    }
+  ]
+}

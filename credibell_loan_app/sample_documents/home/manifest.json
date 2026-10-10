@@ -1,0 +1,46 @@
+{
+  "synthetic_only": true,
+  "generator": "loan_models_v2",
+  "files": {
+    "a8b187a3fb45128ab9e1341746ee702a1802d878ef0eab18e28edecd09c863e2": {
+      "kind": "profile",
+      "demo_id": "DEMO00001"
+    },
+    "4f3004b56d6dbe5a706855cecabde4b97493927539f13b134fa7e6ecb97a011b": {
+      "kind": "payslip",
+      "demo_id": "DEMO00001"
+    },
+    "53955f2d8cf6413ee0099d6ae749999cf555b4afbe84049b31b94366acfe810e": {
+      "kind": "bank_statement",
+      "demo_id": "DEMO00001"
+    },
+    "d6199080211b0034e49e72e266452b2e377e14020cc418aca74babf0ed0f1368": {
+      "kind": "epf_statement",
+      "demo_id": "DEMO00001"
+    },
+    "21f5fc55581460fa83dbbde7916215d124e21652cf93dc32e8d3504c79b2481d": {
+      "kind": "ccris_statement",
+      "demo_id": "DEMO00001"
+    },
+    "d83090393e7838068a8168410bd198f67d76b56cc4ded83464740e2cfc49fd2f": {
+      "kind": "ctos_statement",
+      "demo_id": "DEMO00001"
+    },
+    "e4405d477101e4f476c9e159230378b005dde5fbfef3e909a8ba50d2f92fc0ff": {
+      "kind": "credit_card_statement",
+      "demo_id": "DEMO00001"
+    },
+    "a0c25e3130b9bb9c79cbb446d1a022c7b640c92043f641f72fc8229ef941089d": {
+      "kind": "existing_loan_statement",
+      "demo_id": "DEMO00001"
+    },
+    "a7f559b7150daa808271a8adc649ab223aa03905c9cc843ddf865c8d15cb4021": {
+      "kind": "employment_contract",
+      "demo_id": "DEMO00001"
+    },
+    "6e194460a687b58f6d36c7ba982e088c58d0e9e985c270f442aad5216706aec5": {
+      "kind": "loan_quotation",
+      "demo_id": "DEMO00001"
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "feature_names": [
+    "age",
+    "net_income",
+    "gross_income",
+    "calculated_dsr",
+    "ltv_ratio",
+    "surplus_ratio",
+    "credit_utilization",
+    "income_variability",
+    "variable_income_fraction",
+    "months_in_job",
+    "contract_months_remaining",
+    "epf_regular_months",
+    "epf_to_income",
+    "arrears_max_months",
+    "late_payments_12m",
+    "mock_ctos_score",
+    "legal_flags",
+    "cash_buffer_months_after_deposit",
+    "tenure_years",
+    "rate",
+    "is_car",
+    "is_home",
+    "is_personal"
+  ],
+  "data_source": "fully_synthetic_simulator_v2",
+  "not_real_bank_validation": true,
+  "seed": 20261010,
+  "n": 16000,
+  "splits": {
+    "train": 9600,
+    "early_stopping": 2400,
+    "calibration": 1600,
+    "untouched_test": 2400
+  },
+  "target_definitions": {
+    "approval": "Synthetic generic underwriting approval of the requested quotation; not bank-specific odds.",
+    "risk": "Synthetic occurrence of at least one 90+ day arrears event within the next 12 months, for ALL simulated profiles including rejected ones.",
+    "health": "Expected synthetic 12-month internal credit-health score (0-100); not CTOS, CCRIS, FICO or a bureau score."
+  },
+  "feature_ranges": {
+    "age": [
+      18.0,
+      70.0
+    ],
+    "net_income": [
+      1083.93994140625,
+      26692.2890625
+    ],
+    "gross_income": [
+      1500.0,
+      30000.0
+    ],
+    "calculated_dsr": [
+      0.03553248569369316,
+      7.891822338104248
+    ],
+    "ltv_ratio": [
+      0.0,
+      0.9499515891075134
+    ],
+    "surplus_ratio": [
+      -7.181741714477539,
+      0.7134833335876465
+    ],
+    "credit_utilization": [
+      0.00016650000179652125,
+      1.1499580144882202
+    ],
+    "income_variability": [
+      2.7386247438698774e-06,
+      0.549942672252655
+    ],
+    "variable_income_fraction": [
+      2.5125940737780184e-05,
+      0.7999477982521057
+    ],
+    "months_in_job": [
+      1.0,
+      180.0
+    ],
+    "contract_months_remaining": [
+      6.0,
+      120.0
+    ],
+    "epf_regular_months": [
+      0.0,
+      12.0
+    ],
+    "epf_to_income": [
+      0.0007209694012999535,
+      66.36724853515625
+    ],
+    "arrears_max_months": [
+      0.0,
+      3.0
+    ],
+    "late_payments_12m": [
+      0.0,
+      6.0
+    ],
+    "mock_ctos_score": [
+      350.0,
+      840.0
+    ],
+    "legal_flags": [
+      0.0,
+      1.0
+    ],
+    "cash_buffer_months_after_deposit": [
+      -12.0,
+      36.0
+    ],
+    "tenure_years": [
+      2.0,
+      35.0
+    ],
+    "rate": [
+      0.025014158338308334,
+      0.11999020725488663
+    ],
+    "is_car": [
+      0.0,
+      1.0
+    ],
+    "is_home": [
+      0.0,
+      1.0
+    ],
+    "is_personal": [
+      0.0,
+      1.0
+    ]
+  },
+  "calibration": {
+    "approval": {
+      "slope": 1.0305075636844618,
+      "intercept": -0.025280322667827926
+    },
+    "risk": {
+      "slope": 0.9565589077199622,
+      "intercept": -0.015492157805780525
+    }
+  },
+  "models": {
+    "approval": "approval.json",
+    "risk": "credit_risk.json",
+    "health": "credit_health.json"
+  }
+}

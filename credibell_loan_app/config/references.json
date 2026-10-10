@@ -1,0 +1,64 @@
+{
+  "sources": {
+    "PUBLIC_BANK_CAR": {
+      "title": "Public Bank passenger-vehicle margins and tenures",
+      "url": "https://www.pbebank.com/en/rates-charges/hire-purchase/",
+      "reviewed_on": "2026-10-10",
+      "summary": "Passenger vehicles up to five years old: up to 90% financing and 108 months. Older vehicle bands shorten tenure; over ten and up to twelve years: up to 75% and 36 months. Maxima remain subject to bank approval. Internal DSR rules and actual approval probabilities are not supplied."
+    },
+    "MAYBANK_CAR": {
+      "title": "Maybank Hire Purchase framework",
+      "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/loans/hire_purchase/hire_purchase.page",
+      "reviewed_on": "2026-10-10",
+      "summary": "Maybank adopted reducing-balance hire-purchase calculations from 1 August 2026. Passenger-car financing is up to 90% and 108 months; used-car terms depend on vehicle age. Both fixed and variable rates use remaining balance. Final terms remain subject to approval."
+    },
+    "CIMB_HOME": {
+      "title": "CIMB HomeFlexi Smart",
+      "url": "https://www.cimb.com.my/en/personal/day-to-day-banking/financing/property-financing/homeflexismart.html",
+      "reviewed_on": "2026-10-10",
+      "summary": "Combined financing can reach 95%, inclusive of eligible insurance, legal and valuation costs capped at 5%. Tenure: five to 35 years or age 70, whichever comes first. The demo's 90% asset-only cap is a conservative planning assumption. Commission and self-employed applicants need additional evidence."
+    },
+    "MAYBANK_HOME": {
+      "title": "Maybank MaxiHome",
+      "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/loans/home/maxihome.page",
+      "reviewed_on": "2026-10-10",
+      "summary": "MaxiHome lists tenure up to 35 years or age 70 and combined financing up to 95% including related capitalised expenses. Additional property and income documents may be required. Actual asset-only margin needs bank confirmation; the demo uses a conservative 90% planning assumption."
+    },
+    "MAYBANK_PERSONAL": {
+      "title": "Maybank personal loan requirements",
+      "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/loans/personal/personal_loan.page",
+      "reviewed_on": "2026-10-10",
+      "summary": "Malaysian citizenship, entry age 21-60 and monthly gross income at least RM3,500. Amount RM5,000-RM100,000, tenure two-six years. Quotation rate and calculation basis must be verified. The demo rates are illustrative, not live bank offers."
+    },
+    "CIMB_PERSONAL": {
+      "title": "CIMB Cash Plus personal loan requirements",
+      "url": "https://www.cimb.com.my/en/personal/day-to-day-banking/financing/personal-financing/cash-plus-personal-loan.html",
+      "reviewed_on": "2026-10-10",
+      "summary": "Malaysian citizens aged 21-58, maturity no later than age 60, minimum monthly gross income RM2,000. Employment exceeds six consecutive months; self-employed business history exceeds 24 months. Amount RM2,000-RM100,000, terms two-seven years, stamp duty 0.5%. Lowest advertised pricing requires specific eligibility."
+    },
+    "BNM_PERSONAL": {
+      "title": "BNM Personal Financing policy effective dates",
+      "url": "https://www.bnm.gov.my/-/pd-pf-925",
+      "reviewed_on": "2026-10-10",
+      "summary": "Issued 30 September 2025. Specified provisions on tenure, flat-rate/Rule of 78 prohibition, effective-rate disclosure and financial education take effect 1 January 2027. Financial education concerns new personal financing above RM100,000. Do not treat future provisions as already effective. Supported demo personal products stop at RM100,000."
+    },
+    "BNM_HOUSING": {
+      "title": "BNM third housing financing LTV cap",
+      "url": "https://www.bnm.gov.my/-/measures-in-promoting-a-stable-and-sustainable-property-market-and-sound-financial-and-debt-management-of-households",
+      "reviewed_on": "2026-10-10",
+      "summary": "The 2010 measure caps the third housing financing facility at 70% LTV. The demo checks existing outstanding housing facilities before applying it. It does not assume first or second mortgages automatically receive 90% financing."
+    },
+    "BNM_CCRIS": {
+      "title": "BNM CCRIS questions",
+      "url": "https://www.bnm.gov.my/faqs/ccris/questions",
+      "reviewed_on": "2026-10-10",
+      "summary": "CCRIS supplies credit information and repayment records; BNM does not issue a credit rating or blacklist. Rejected applications are not included in CCRIS. Do not advertise a guaranteed CCRIS rejection-footprint shield. This demo neither connects to CCRIS nor creates official reports."
+    },
+    "PDPA": {
+      "title": "Malaysia Personal Data Protection Commissioner FAQ",
+      "url": "https://www.pdp.gov.my/ppdpv1/en/faq/",
+      "reviewed_on": "2026-10-10",
+      "summary": "Identifiable data used commercially can engage PDPA duties for notice, disclosure, security, retention, accuracy and access. Mock-only controls do not certify real-data deployment. Profiling, cross-border processing, DPO, breach notification and credit-reporting roles need separate legal and operational review."
+    }
+  }
+}

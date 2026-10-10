@@ -1,0 +1,1 @@
+Unregistered alternate mock layouts. Use these two images with the other eight car sample images. They contain the same synthetic financial values, with different English/Malay labels and explicit RM/% units.

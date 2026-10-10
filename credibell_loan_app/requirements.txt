@@ -1,0 +1,10 @@
+numpy==2.5.3
+scikit-learn==1.7.2
+xgboost==3.0.5
+Pillow==12.3.0
+rapidocr==3.10.0
+onnxruntime==1.31.0
+fastapi==0.143.0
+pydantic==2.14.0
+uvicorn==0.54.0
+pypdfium2==5.13.0

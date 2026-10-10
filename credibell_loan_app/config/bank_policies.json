@@ -1,0 +1,184 @@
+{
+  "verified_on": "2026-10-10",
+  "valid_until": "2026-11-09",
+  "scope": "Published partial eligibility only. Bank internal underwriting is unknown. Rates are read from mock quotations.",
+  "products": {
+    "PUBLIC_BANK_CAR": {
+      "bank": "Public Bank",
+      "product": "car",
+      "vehicle_scope": "passenger cars",
+      "age_bands": [
+        [
+          5,
+          0.9,
+          108
+        ],
+        [
+          8,
+          0.9,
+          84
+        ],
+        [
+          9,
+          0.9,
+          72
+        ],
+        [
+          10,
+          0.9,
+          60
+        ],
+        [
+          12,
+          0.75,
+          36
+        ]
+      ],
+      "source": "https://www.pbebank.com/en/rates-charges/hire-purchase/"
+    },
+    "MAYBANK_CAR": {
+      "bank": "Maybank",
+      "product": "car",
+      "margin": 0.9,
+      "max_months": 108,
+      "reducing_balance_from": "2026-08-01",
+      "used_vehicle_age_policy_unknown": true,
+      "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/loans/hire_purchase/hire_purchase.page"
+    },
+    "CIMB_HOME": {
+      "bank": "CIMB",
+      "product": "home",
+      "margin": 0.9,
+      "max_months": 420,
+      "min_months": 60,
+      "max_age_at_maturity": 70,
+      "margin_interpretation": "Conservative asset-only 90%: published up to 95% includes eligible ancillary fees capped at 5%; this prototype excludes financed fees.",
+      "margin_is_demo_assumption": true,
+      "source": "https://www.cimb.com.my/en/personal/day-to-day-banking/financing/property-financing/homeflexismart.html"
+    },
+    "MAYBANK_HOME": {
+      "bank": "Maybank",
+      "product": "home",
+      "margin": 0.9,
+      "max_months": 420,
+      "max_age_at_maturity": 70,
+      "margin_is_demo_assumption": true,
+      "margin_interpretation": "90% asset-only planning assumption. Published combined margin up to 95% includes related capitalised expenses; the precise asset-only ceiling requires bank confirmation.",
+      "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/loans/home/maxihome.page"
+    },
+    "MAYBANK_PERSONAL": {
+      "bank": "Maybank",
+      "product": "personal",
+      "min_age": 21,
+      "max_age": 60,
+      "min_gross_income": 3500,
+      "citizenship": "MY",
+      "min_principal": 5000,
+      "max_principal": 100000,
+      "min_months": 24,
+      "max_months": 72,
+      "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/loans/personal/personal_loan.page"
+    },
+    "CIMB_PERSONAL": {
+      "bank": "CIMB",
+      "product": "personal",
+      "min_age": 21,
+      "max_age": 58,
+      "max_age_at_maturity": 60,
+      "min_gross_income": 2000,
+      "citizenship": "MY",
+      "min_principal": 2000,
+      "max_principal": 100000,
+      "min_months": 24,
+      "max_months": 84,
+      "min_job_months_exclusive": 6,
+      "employment_scope": "Salaried employees only; self-employed needs business history and a separate document schema.",
+      "source": "https://www.cimb.com.my/en/personal/day-to-day-banking/financing/personal-financing/cash-plus-personal-loan.html"
+    },
+    "CIMB_CAR": {
+      "bank": "CIMB",
+      "product": "car",
+      "margin": 0.9,
+      "max_months": 108,
+      "source": "https://www.cimb.com.my/en/personal/day-to-day-banking/financing/auto-financing/hire-purchase.html.html"
+    },
+    "RHB_CAR": {
+      "bank": "RHB",
+      "product": "car",
+      "margin": 0.9,
+      "max_months": 108,
+      "min_age": 18,
+      "guarantor_below_age": 21,
+      "guarantor_above_age": 60,
+      "noncitizen_guarantor": true,
+      "source": "https://www.rhbgroup.com/islamic/financing/auto-financing/index.html"
+    },
+    "HONG_LEONG_CAR": {
+      "bank": "Hong Leong Bank",
+      "product": "car",
+      "margin": 0.9,
+      "max_months": 108,
+      "source": "https://www.hlb.com.my/en/personal-banking/loans/motor-loan/auto-loans.html"
+    },
+    "AMBANK_CAR": {
+      "bank": "AmBank",
+      "product": "car",
+      "margin": 0.9,
+      "max_months": 108,
+      "source": "https://www.ambank.com.my/loans-financing/personal/auto-financing/"
+    },
+    "RHB_HOME": {
+      "bank": "RHB",
+      "product": "home",
+      "margin": 0.9,
+      "max_months": 420,
+      "min_months": 60,
+      "min_age": 18,
+      "max_age_at_maturity": 70,
+      "margin_interpretation": "90% asset component; additional insurance/entry-cost financing is excluded from this calculation.",
+      "source": "https://www.rhbgroup.com/personal/home-loan/my1-full-flexi-home-loan/index.html"
+    },
+    "HONG_LEONG_PERSONAL": {
+      "bank": "Hong Leong Bank",
+      "product": "personal",
+      "min_age": 21,
+      "max_age": 60,
+      "min_gross_income": 2000,
+      "citizenship": "MY",
+      "min_principal": 5000,
+      "max_principal": 250000,
+      "max_months": 60,
+      "source": "https://www.hlb.com.my/en/personal-banking/loans/personal-loan/personal-loan.html"
+    },
+    "AMBANK_PERSONAL": {
+      "bank": "AmBank",
+      "product": "personal",
+      "min_age": 21,
+      "max_age_at_maturity": 60,
+      "min_gross_income": 3000,
+      "citizenship": "MY",
+      "min_principal": 2000,
+      "max_principal": 150000,
+      "min_months": 12,
+      "max_months": 84,
+      "employment_scope": "Salaried employees; self-employed income rules differ.",
+      "source": "https://www.ambank.com.my/loans-financing/personal/personal-financing/ammoneyline"
+    },
+    "RHB_PERSONAL": {
+      "bank": "RHB",
+      "product": "personal",
+      "min_age": 21,
+      "min_gross_income": 3000,
+      "max_principal": 150000,
+      "max_months": 120,
+      "employment_scope": "Private-sector employees with salary transfer and auto debit. Product-specific age and amount bands need bank confirmation.",
+      "source": "https://www.rhbgroup.com/personalfinancing-i/index.html"
+    }
+  },
+  "bnm_sources": {
+    "tenure": "https://www.bnm.gov.my/-/measures-to-further-promote-a-sound-and-sustainable-household-sector",
+    "affordability": "https://www.bnm.gov.my/-/measures-to-promote-responsible-financing-practices",
+    "third_housing": "https://www.bnm.gov.my/-/measures-in-promoting-a-stable-and-sustainable-property-market-and-sound-financial-and-debt-management-of-households",
+    "personal_2027": "https://www.bnm.gov.my/-/pd-pf-925"
+  }
+}

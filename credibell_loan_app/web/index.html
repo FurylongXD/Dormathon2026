@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CrediBell · Loan intelligence</title>
+  <meta name="description" content="A local Malaysian loan-analysis dashboard for anonymized mock documents.">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="stylesheet" href="/assets/modern.css">
+  <script src="/assets/app.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="#submit" aria-label="CrediBell home"><span class="brand-mark">C</span><span>CrediBell<span class="brand-sub">LOAN INTELLIGENCE</span></span></a>
+    <div class="side-label">YOUR WORKSPACE</div>
+    <nav aria-label="Main navigation">
+      <button class="nav-item active" data-page="submit"><span data-icon="upload"></span><span>Submit documents</span><span class="nav-count" id="nav-count">0/10</span></button>
+      <button class="nav-item" data-page="analysis"><span data-icon="chart"></span><span>Prediction analysis</span></button>
+      <button class="nav-item" data-page="recommendations"><span data-icon="bulb"></span><span>Explanation &amp;<br>recommendation</span></button>
+    </nav>
+    <div class="side-bottom"><div class="local-dot"></div><div><strong>Your loan workspace</strong><p>Documents → clarity → next steps</p></div></div>
+  </aside>
+  <main>
+    <header class="topbar"><div class="breadcrumb"><span>Personal finance</span><span>/</span><strong id="breadcrumb">Documents</strong></div>
+      <div class="top-right"><span class="workspace-pill">MY LOAN WORKSPACE</span><button class="avatar" id="profile-button" aria-label="Open user profile" aria-expanded="false">CB</button></div>
+      <div class="profile-menu" id="profile-menu" hidden><div class="profile-head"><span class="avatar static">CB</span><div><strong>Anonymous applicant</strong><p id="profile-age">Your local session</p></div></div><p>Uploads are saved on this computer. With AI reading enabled, sample text is processed by Grafilab. No loan application is submitted.</p><button id="clear-data" class="text-button danger">Clear my uploads and analysis</button></div>
+    </header>
+    <div class="content">
+      <section class="page-heading"><div><div class="eyebrow">A CLEARER FINANCIAL PICTURE</div><h1 id="page-title">Start with your documents.</h1><p id="page-subtitle">Upload, verify and save each document. We’ll connect the numbers for you.</p></div><div id="page-actions"></div></section>
+      <div class="notice" id="global-notice" hidden></div>
+      <section id="page" aria-live="polite"></section>
+      <footer><span>CrediBell · Malaysian loan planning</span><span>Sample estimates · Bank confirmation required</span></footer>
+      <details class="scope-details"><summary>How estimates and document privacy work</summary><p>The approval, risk and credit-health models were trained on synthetic outcomes. Their probabilities have not been validated against real bank approvals. Published financing limits are maximum product terms, not offers. Credit health is an internal score, separate from CTOS. SHAP explains model associations; scenario changes are estimates, not guarantees.</p><p>Use anonymized, SAMPLE-marked documents only. Recognized sample text may be sent to Grafilab for field translation when configured. Images and PDFs remain local. Remove names, identity numbers, full account/card numbers, addresses and contact details. Review extracted fields before saving. Clear your local records through your profile menu.</p></details>
+    </div>
+  </main>
+  <div class="toast" id="toast" role="status" hidden></div>
+  <dialog id="details-dialog"><div class="dialog-header"><h2>Document details</h2><button id="close-details" class="icon-button" aria-label="Close document details">×</button></div><div id="details-content"></div></dialog>
+</body>
+</html>
